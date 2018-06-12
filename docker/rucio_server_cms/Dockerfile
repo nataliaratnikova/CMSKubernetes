@@ -8,7 +8,8 @@
 # - Cedric Serfon, <cedric.serfon@cern.ch>, 2017
 # Modified by Igor Mandrichenko, January 2018
 
-FROM cmssw/rucio_server
+#FROM cmssw/rucio_server
+FROM rucio_server_webui
 
 EXPOSE 443
 EXPOSE 8443
